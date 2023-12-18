@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": [
+			"dom",
+			"es2016"
+		],
+		"jsx": "react",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"plugins": [
+		{
+			"name": "typescript-plugin-css-modules"
+		}
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"build",
+		".vscode",
+		"src/tests"
+	],
+	"include": [
+		"./declaration.d.ts",
+		"src/"
+	]
+}

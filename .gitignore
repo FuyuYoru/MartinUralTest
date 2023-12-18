@@ -1,0 +1,8 @@
+# Node.js
+node_modules/
+
+# Client-specific
+client/node_modules/
+
+# Server-specific
+server/node_modules/

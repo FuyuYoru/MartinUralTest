@@ -1,0 +1,25 @@
+.controllerContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem 1rem;
+	gap: 1rem;
+	user-select: none;
+	text-align: center;
+	align-items: center;
+}
+
+.pagesContainer {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.pagesContainer li {
+	padding: 1rem 1rem;
+	border: none;
+	cursor: pointer;
+}
+
+li.currentPage {
+	border-bottom:1px solid black;
+}

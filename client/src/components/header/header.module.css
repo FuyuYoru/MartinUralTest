@@ -1,0 +1,31 @@
+.header,
+.navbar {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header {
+  justify-content: space-between;
+  /* padding: 1rem; */
+  background-color: black;
+}
+
+.navbar {
+  padding: 0;
+  gap: 1.2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 1rem;
+  border-left: 1px solid white;
+	border-right: 1px solid white;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: white;
+  color: black;
+}
+
